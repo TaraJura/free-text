@@ -1,0 +1,26 @@
+WHY RUBY NAME ? 
+
+The name Ruby for the language got originated in an online chat session between Matsumoto and Keiju Ishitsuka on February 24, 1993
+before even any code was written in the language. Initially two names were suggested ie Coral or Ruby.
+The name Ruby was later chosen by Matsumoto in an email to Ishitsuka.
+--------------------------------------------------------------------------------------------------------------------------------------------
+ why ruby was created ?
+ 
+Ruby came into existence as Yukihiro Matsumoto, wanted a scripting language more powerful than Perl, and more object oriented than Python.
+--------------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+--------------------------------------------------------------------------------------------------------------------------------------------
+proč nil a ne null ?
+
+Well, "nil" is the traditional name for the reified concept of "nothing" in Lisp and Smalltalk†. The word "null" is used as an adjective meaning "empty",
+as in "the null list," which is nil. Meanwhile, "null" is traditionally a pointer value in C that signifies the pointer doesn't point to anything valid
+--------------------------------------------------------------------------------------------------------------------------------------------
