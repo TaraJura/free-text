@@ -1,83 +1,82 @@
 Proč se Ruby jmenuje Ruby ? 
 
-Na začátku se vybíralo z 2 názvů a to jewel a ruby kde ruby bylo znamení né Matze, ale jeho kamaráda z výšky.
+Na začátku se vybíralo z 2 názvů a to jewel a ruby kde ruby bylo znamení né Matze, ale jeho kamaráda z vejšky s kterým na projektu spolupracoval
 Jméno Ruby bylo vybráno z mého pohledu úplně random a to při online chatovací session, mezi Matsumotem a jeho kamarádem,
-který má přijmení jako nepovedený apple produkt. No a Matz jméno Ruby použil v email a název se prostě uchytil. 
+který má přijmení jako nepovedený apple produkt pro USA a Rusko. No a Matz jméno Ruby použil v email a název se prostě uchytil.
 --------------------------------------------------------------------------------------------------------------------------------------------
 Proč Ruby vzniklo ?
  
-Jednoduše proto ,že match chtěl Jazyk s více funkcema než měl Petr a více objektově orientován než Python, tak si prostě napsal svůj jazyk.
+Jednoduše proto ,že Matz chtěl Jazyk s více funkcema než měl Perl a více objektově orientován než Python, tak si prostě napsal svůj jazyk.
 --------------------------------------------------------------------------------------------------------------------------------------------
 Na co se Ruby používá a v čem je jednička?
-
-
-Ruby is a general-purpose programming language often used for web development, building scripts, and developing software applications. 
-It is well-suited for building dynamic, object-oriented applications with a focus on simplicity and readability. 
-Ruby is particularly good for building rapid prototypes and for testing out ideas, as well as for building full-scale web applications. 
 
 Ruby je univerzální programovací jazyk často používaný hlavně pro vývoj webových aplikací a vytváření skriptů.
 Jeho hlavní výhodou je jednoduchost a čitelnost a díky tomu je ideálně pro vytváření rychlých prototypů a testování nápadů.
 --------------------------------------------------------------------------------------------------------------------------------------------
 Jak Ruby zvládá správu paměti ?
 
-Jelikož jak jsme si řekli, že je jednoduchý tak pro správu paměti používá garbage collector, který se o memory management stará za vás a automaticky
-maže maže paměť která není potřebná k běhu programu.
+Jelikož jsme si řekli, že je jednoduchý tak pro správu paměti používá garbage collector, který se o memory management stará za nás a automaticky
+maže paměť která není potřebná k běhu programu. Na toto téma by se dala udělat jedna celá prezentace tak třeba příště.
 --------------------------------------------------------------------------------------------------------------------------------------------
 Jaké jsou výhody Ruby oproti jiným jazykům ?
 
-Readability: Ruby has a clean and simple syntax that makes it easy to read and write code.
-Dynamic typing: Ruby is dynamically typed, so you don't need to specify data types for variables.
-Large community: Ruby has a large, active community of developers who contribute to the language and provide support.
-Rails framework: Ruby is the language behind the popular Rails framework, making it a popular choice for web development.
+Čitelnost: má čistou a jednoduchou sintaxi
+
+Není potřeba psát před proměnné datové typy
+
+Velkou a přátelskou komunitu. že ano :D
+
+A největší výhodou je samozřejmě rails framework.
 --------------------------------------------------------------------------------------------------------------------------------------------
 Co je to Ruby GEM a proč jsou důležité ?
 
-Ruby’s libraries and packages are managed through central library management system called Rubygems.
-They are simply open source libraries that contain Ruby code and are packaged with a little extra data .
+Gemy jsou vlastně knihovny a balíčky Ruby kódu, které jsou spravovány centrálním knihovnovým systémem s názvem Rubygems.
+v podstatě je to jen ruby kod obalený kusem kodu pro jejich managovací systém.
 
-1.bundler
-2. rspec
+1.bundler 1,388,407,811
+2.rspec-exceptions 746,201,691
 --------------------------------------------------------------------------------------------------------------------------------------------
 Kdyby Ruby byl člověk jaké personální rysy by měl ?
 
-
-
-
+No v první řadě si řekneme kdo by rozhodně nebyl, nebyl by žena, řekneme si proč.
+Sice by byl přátělský a elegantní ale hlavně by šel hned na věc a nedělal by z komára velblouda.
+I když by nebyl Olympijský spinter tak věrné přátele by si našel bez problémů. 
 --------------------------------------------------------------------------------------------------------------------------------------------
 proč nil a ne null ?
 
-Well, "nil" is the traditional name for the reified concept of "nothing" in Lisp and Smalltalk†. The word "null" is used as an adjective meaning "empty",
-as in "the null list," which is nil. Meanwhile, "null" is traditionally a pointer value in C that signifies the pointer doesn't point to anything valid
+Nil se tradičně používál v lispu a smalltalku kdežto null zase v javascriptu a v C-čku jako pointer na něco co není validní.
+Můžeme si to taky představit jakože nil více doslovně znamená nic a null zase jako prázdný třeba array.
+--------------------------------------------------------------------------------------------------------------------------------------------
+TOP 10?
+
+Je to graf od githubu a registruje výskyt jednotlivých jazyků ve všech repozitářích.
+Vtipné je že takového grafy často bývají hodně kontroverzní jelikož čistě teoreticky můžeme udělat statistiku,na to který jazyk má 100% 
+knihoven včetně testů a v tom případě by to vyhrál Perl.
 --------------------------------------------------------------------------------------------------------------------------------------------
 Co to je?
 
-Ruby on Rails (simplified as Rails) is a server-side web application framework written in Ruby under the MIT License. 
-Rails is a model–view–controller (MVC) framewor
+Jednoduše a bezkonkurenčně první nejlepší framework pro vývoj webových aplikací založený na principu MVC.
+první release byl v roku 2004
+největší boom začal roku 2006 kdy Apple ohlásil že rails bude předinstalováno na jejich tehdejší novinku Mac OS X Leopard
 --------------------------------------------------------------------------------------------------------------------------------------------
 Co je to MVC a SPA ?
 
 model view controller a single page aplication
-
-říkáte si co je to za trapnou otázku to přece všichni známe, ale na čem se asi všichni neshodneme tak je to co je lepší ?
-obecně přijimané názory jsou že MVC je přehlednější a jednodužší na vývoj, ale SPA je zase rychlejší jelikož sebou nenese zbytečné data navíc
+říkáte si co je to za trapnou otázku to přece všichni známe, ale na čem se asi všichni neshodneme tak je to:      co je lepší ?
+obecně přijimané názory jsou že MVC je přehlednější a jednodužší na vývoj, ale SPA je zase rychlejší jelikož sebou nenese zbytečné data navíc.
 --------------------------------------------------------------------------------------------------------------------------------------------
 Jak RoR zpracovává routing a správu URL?
 
-
-
-
+Ruby on Rails používá routes.rb soubor k definování a správě URL adres. Tento konfigurační soubor definuje,
+jaký kontroler a akce budou spouštěny při vstupu na konkrétní URL adresu. Můžete také použít dynamické URL adresy, 
+které obsahují proměnné, které poté mohou být použity v kontroléru. RoR automaticky generuje helper metody pro úplnou bezstarostnost.
 --------------------------------------------------------------------------------------------------------------------------------------------
 Jak RoR zpracovává integrace databází ?
 
-
-
-
-
-
-
+O většinu problémů se postará ActiveRecord.
+Active Record je objektově-relační mapovácí framework, který vám umožňuje pracovat s databázovými záznamy jako s objekty v Ruby.
+Takže můžete záznamy v databázi CRUDOVAT bez jakékoli znalosti SQL.
 --------------------------------------------------------------------------------------------------------------------------------------------
 Nejlepší framework pro webové aplikace ?
-
-
-
+Ano
 
