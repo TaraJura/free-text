@@ -1,22 +1,27 @@
-WHY RUBY NAME ? 
+Proč se Ruby jmenuje Ruby ? 
 
-The name Ruby for the language got originated in an online chat session between Matsumoto and Keiju Ishitsuka on February 24, 1993
-before even any code was written in the language. Initially two names were suggested ie Coral or Ruby.
-The name Ruby was later chosen by Matsumoto in an email to Ishitsuka.
+Na začátku se vybíralo z 2 názvů a to jewel a ruby kde ruby bylo znamení né Matze, ale jeho kamaráda z výšky.
+Jméno Ruby bylo vybráno z mého pohledu úplně random a to při online chatovací session, mezi Matsumotem a jeho kamarádem,
+který má přijmení jako nepovedený apple produkt. No a Matz jméno Ruby použil v email a název se prostě uchytil. 
 --------------------------------------------------------------------------------------------------------------------------------------------
- why ruby was created ?
+Proč Ruby vzniklo ?
  
-Ruby came into existence as Yukihiro Matsumoto, wanted a scripting language more powerful than Perl, and more object oriented than Python.
+Jednoduše proto ,že match chtěl Jazyk s více funkcema než měl Petr a více objektově orientován než Python, tak si prostě napsal svůj jazyk.
 --------------------------------------------------------------------------------------------------------------------------------------------
 Na co se Ruby používá a v čem je jednička?
+
 
 Ruby is a general-purpose programming language often used for web development, building scripts, and developing software applications. 
 It is well-suited for building dynamic, object-oriented applications with a focus on simplicity and readability. 
 Ruby is particularly good for building rapid prototypes and for testing out ideas, as well as for building full-scale web applications. 
+
+Ruby je univerzální programovací jazyk často používaný hlavně pro vývoj webových aplikací a vytváření skriptů.
+Jeho hlavní výhodou je jednoduchost a čitelnost a díky tomu je ideálně pro vytváření rychlých prototypů a testování nápadů.
 --------------------------------------------------------------------------------------------------------------------------------------------
 Jak Ruby zvládá správu paměti ?
 
-Ruby uses a garbage collector to handle memory management. The garbage collector automatically frees up memory that is no longer being used by the program.
+Jelikož jak jsme si řekli, že je jednoduchý tak pro správu paměti používá garbage collector, který se o memory management stará za vás a automaticky
+maže maže paměť která není potřebná k běhu programu.
 --------------------------------------------------------------------------------------------------------------------------------------------
 Jaké jsou výhody Ruby oproti jiným jazykům ?
 
