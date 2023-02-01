@@ -3,21 +3,21 @@ Proč se Ruby jmenuje Ruby ?
 Na začátku se vybíralo z 2 názvů a to jewel a ruby kde ruby bylo znamení né Matze, ale jeho kamaráda z vejšky s kterým na projektu spolupracoval
 Jméno Ruby bylo vybráno z mého pohledu úplně random a to při online chatovací session, mezi Matsumotem a jeho kamarádem,
 který má přijmení jako nepovedený apple produkt pro USA a Rusko. No a Matz jméno Ruby použil v email a název se prostě uchytil.
---------------------------------------------------------------------------------------------------------------------------------------------
+--------------------------------------
 Proč Ruby vzniklo ?
  
 Jednoduše proto ,že Matz chtěl Jazyk s více funkcema než měl Perl a více objektově orientován než Python, tak si prostě napsal svůj jazyk.
---------------------------------------------------------------------------------------------------------------------------------------------
+--------------------------------------
 Na co se Ruby používá a v čem je jednička?
 
 Ruby je univerzální programovací jazyk často používaný hlavně pro vývoj webových aplikací a vytváření skriptů.
 Jeho hlavní výhodou je jednoduchost a čitelnost a díky tomu je ideálně pro vytváření rychlých prototypů a testování nápadů.
---------------------------------------------------------------------------------------------------------------------------------------------
+--------------------------------------
 Jak Ruby zvládá správu paměti ?
 
 Jelikož jsme si řekli, že je jednoduchý tak pro správu paměti používá garbage collector, který se o memory management stará za nás a automaticky
 maže paměť která není potřebná k běhu programu. Na toto téma by se dala udělat jedna celá prezentace tak třeba příště.
---------------------------------------------------------------------------------------------------------------------------------------------
+--------------------------------------
 Jaké jsou výhody Ruby oproti jiným jazykům ?
 
 Čitelnost: má čistou a jednoduchou sintaxi
@@ -27,7 +27,7 @@ Není potřeba psát před proměnné datové typy
 Velkou a přátelskou komunitu. že ano :D
 
 A největší výhodou je samozřejmě rails framework.
---------------------------------------------------------------------------------------------------------------------------------------------
+--------------------------------------
 Co je to Ruby GEM a proč jsou důležité ?
 
 Gemy jsou vlastně knihovny a balíčky Ruby kódu, které jsou spravovány centrálním knihovnovým systémem s názvem Rubygems.
@@ -35,48 +35,47 @@ v podstatě je to jen ruby kod obalený kusem kodu pro jejich managovací systé
 
 1.bundler 1,388,407,811
 2.rspec-exceptions 746,201,691
---------------------------------------------------------------------------------------------------------------------------------------------
+--------------------------------------
 Kdyby Ruby byl člověk jaké personální rysy by měl ?
 
 No v první řadě si řekneme kdo by rozhodně nebyl, nebyl by žena, řekneme si proč.
 Sice by byl přátělský a elegantní ale hlavně by šel hned na věc a nedělal by z komára velblouda.
 I když by nebyl Olympijský spinter tak věrné přátele by si našel bez problémů. 
---------------------------------------------------------------------------------------------------------------------------------------------
+--------------------------------------
 proč nil a ne null ?
 
 Nil se tradičně používál v lispu a smalltalku kdežto null zase v javascriptu a v C-čku jako pointer na něco co není validní.
 Můžeme si to taky představit jakože nil více doslovně znamená nic a null zase jako prázdný třeba array.
---------------------------------------------------------------------------------------------------------------------------------------------
+--------------------------------------
 TOP 10?
 
-Je to graf od githubu a registruje výskyt jednotlivých jazyků ve všech repozitářích.
-Vtipné je že takového grafy často bývají hodně kontroverzní jelikož čistě teoreticky můžeme udělat statistiku,na to který jazyk má 100% 
-knihoven včetně testů a v tom případě by to vyhrál Perl.
---------------------------------------------------------------------------------------------------------------------------------------------
+Je to aktuální graf od githubu a registruje výskyt jednotlivých jazyků ve všech repozitářích.
+Vtipné je že takového grafy často bývají hodně kontroverzní jelikož čistě teoreticky můžeme udělat statistiku,na to který jazyk má ve svých knihovnách
+testy ze 100% a v tom případě by to vyhrál Perl.
+--------------------------------------
 Co to je?
 
 Jednoduše a bezkonkurenčně první nejlepší framework pro vývoj webových aplikací založený na principu MVC.
 první release byl v roku 2004
 největší boom začal roku 2006 kdy Apple ohlásil že rails bude předinstalováno na jejich tehdejší novinku Mac OS X Leopard
---------------------------------------------------------------------------------------------------------------------------------------------
+--------------------------------------
 Co je to MVC a SPA ?
 
-model view controller a single page aplication
 říkáte si co je to za trapnou otázku to přece všichni známe, ale na čem se asi všichni neshodneme tak je to:      co je lepší ?
-obecně přijimané názory jsou že MVC je přehlednější a jednodužší na vývoj, ale SPA je zase rychlejší jelikož sebou nenese zbytečné data navíc.
---------------------------------------------------------------------------------------------------------------------------------------------
+obecně přijimané názory jsou že MVC je přehlednější a jednodužší na vývoj, ale SPA je zase rychlejší jelikož sebou nenese zbytečná data navíc.
+--------------------------------------
 Jak RoR zpracovává routing a správu URL?
 
 Ruby on Rails používá routes.rb soubor k definování a správě URL adres. Tento konfigurační soubor definuje,
 jaký kontroler a akce budou spouštěny při vstupu na konkrétní URL adresu. Můžete také použít dynamické URL adresy, 
-které obsahují proměnné, které poté mohou být použity v kontroléru. RoR automaticky generuje helper metody pro úplnou bezstarostnost.
---------------------------------------------------------------------------------------------------------------------------------------------
+které obsahují proměnné, které poté mohou být použity v kontroléru. RoR automaticky generuje helper metody
+--------------------------------------
 Jak RoR zpracovává integrace databází ?
 
 O většinu problémů se postará ActiveRecord.
 Active Record je objektově-relační mapovácí framework, který vám umožňuje pracovat s databázovými záznamy jako s objekty v Ruby.
 Takže můžete záznamy v databázi CRUDOVAT bez jakékoli znalosti SQL.
---------------------------------------------------------------------------------------------------------------------------------------------
+--------------------------------------
 Nejlepší framework pro webové aplikace ?
 Ano
 
